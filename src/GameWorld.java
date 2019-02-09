@@ -12,6 +12,7 @@ public class GameWorld {
         }
         for (int i = 0; i < cities.size(); i++) {
             System.out.println(cities.get(i).name);
+            System.out.println("The population is at: " + cities.get(i).population + "000");
             System.out.println("Armor price  = " + cities.get(i).armor);
             System.out.println("Sword price  = " + cities.get(i).sword);
             System.out.println("Dagger price = " + cities.get(i).dagger);
